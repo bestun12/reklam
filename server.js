@@ -4,7 +4,7 @@ const invites = {};
 const wait = require("util").promisify(setTimeout);
 const moment = require("moment");
 const fs = require("fs");
-var prefix = "g+";
+var prefix = "a!";
  
 sarok.on("ready", () => {
   console.log(`Logged in as ${sarok.user.tag}!`);
@@ -57,7 +57,7 @@ sarok.channels.get("Id channel").send(
 )
 }})
  
- sarok.login("NzMyMDc2MTkzODQ2OTE5MjYw.XwvVFQ.0UWy6PFzw3TFo8-COmlUWY9AboE") 
+ sarok.login("NzMzOTk0ODEwNDIzMzc3OTQw.XxLP7w.JcBQWT8QkXvftvcOoueJ0_MKXMw") 
  
  
  
